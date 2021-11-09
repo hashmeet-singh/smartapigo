@@ -127,7 +127,7 @@ var MockResponders = [][]string{
 	[]string{http.MethodPost, URIUserProfile, "profile.json"},
 	[]string{http.MethodPost, URILogout, "logout.json"},
 	[]string{http.MethodPost, URIConvertPosition, "position_conversion.json"},
-
+	[]string{http.MethodPost, URIHistoricalData, "historical_data.json"},
 }
 
 // Test only function prefix with this
